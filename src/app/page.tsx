@@ -18,7 +18,7 @@ const Home = () => {
   const handlePlay = () => {
     const audio = audioRef.current
     if (audio && !isPlaying) {
-      audio.volume = 0.4
+      audio.volume = 1
       audio.muted = false
       audio.play()
       setIsMuted(false)

@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${thai.variable} antialiased`}>
+      <body className={`${thai.variable} antialiased`} suppressHydrationWarning>
         <MainLayout>{children}</MainLayout>
       </body>
     </html>

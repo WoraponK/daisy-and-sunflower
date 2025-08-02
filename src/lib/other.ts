@@ -1,3 +1,3 @@
 export const formatSecondPad = (value?: number) => {
-  return value?.toString().padStart(2, '0')
+  return (value ?? 0).toString().padStart(2, '0')
 }
